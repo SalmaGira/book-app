@@ -49,7 +49,7 @@ addBookForm.addEventListener("submit", (e) => {
 
   addDoc(colRef, {
     title: addBookForm.title.value,
-    author: addBookForm.author.value,
+    genre: addBookForm.genre.value,
   }).then(() => {
     addBookForm.reset();
   });
